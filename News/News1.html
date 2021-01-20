@@ -6,17 +6,26 @@
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>New Game!: Morcom Games</title>
+    <title>About: Morcom Games</title>
     <div class="center1 w3-center">
       <!--<p style="color:Tomato">MorCom Games</p>-->
       <img height="144" width="611" src="/assets/MCG.png"></img>
     </div>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script type="text/javascript">
+      $(window).on('load resize',function(){
+         if($(window).width() < 950){
+              window.location = "mobile-index.html"
+          }
+      });
+    </script>
+    <link rel="stylesheet" href="/assets/w3.css">
     <link href="/CSS/style.css" rel="stylesheet" type="text/css" />
     <div class="topnav">
-     <a href="index.html">Home</a>
-      <a href="games.html">Games</a>
+     <a class="active" href="/index.html">Home</a>
+      <a href="/About.html">About</a>
+      <a href="/games.html">Games</a>
       <a href="/Help/h.html">Help</a>
+      <a href="/movie.html">Movies</a>
       <div class="search-container">
         <form action="/action_page.php">
           <input type="text" placeholder="Search.." name="search">
@@ -25,10 +34,8 @@
       </div>
     </div>
     <div class="w3-container w3-white w3-center">
-      <p style="color:black">Comming Soon List:</p>
-    </div>
-    <div class="w3-container w3-white w3-center">
-      <p style="color:black">Nothing</p>
+    <p style="color:black">R.O.C.K. Show Started</p>
+    <p>MorCom Games Has Started Working on R.O.C.K. or "Random Objects That we Completly Know What They Are" Check Back Later For More Information</p>
     </div>
   </head>
   <body>
